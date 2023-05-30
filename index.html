@@ -7,7 +7,6 @@
     <title>Портфолио</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="script.js"></script>
 </head>
 <body>
     <header class="header">
@@ -41,24 +40,51 @@
         </section>
         <section id="slider1" class="slider1">
             <div class="container">
-                <div class="slider1__cont flex">
-                <button class="btn btn__reset">
-            <svg class="slider1__left" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="29.5137" cy="29.5137" r="29.0137" transform="matrix(-1 0 0 1 59.0275 0)" fill="black" stroke="#FFBF40"/>
-                <path d="M45.3535 29.1235H13.6754" stroke="#FFBF40" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M29.5144 13.2845L13.6754 29.1235L29.5144 44.9626" stroke="#FFBF40" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-                </button>
-                <img class="slider1__image" src="img/slider1-img1.jpg" alt="greyimg">
-                <img class="slider1__image" src="img/slider1-img2.jpg" alt="closeimg">
-                <img class="slider1__image" src="img/slider1-img3.jpg" alt="colorimg">
-                <button class="btn btn__reset">
-            <svg class="slider1__right" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="29.5137" cy="29.5137" r="29.0137" fill="black" stroke="#FFBF40"/>
-                <path d="M13.6741 29.1235H45.3522" stroke="#FFBF40" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M29.5131 13.2845L45.3521 29.1235L29.5131 44.9626" stroke="#FFBF40" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-                </button>
+                <div class="slider1__cont">
+                    <div id="wrapper">
+                        <div id="carousel">
+                          <div id="content">
+                            <img
+                              class="item"
+                              src="img/slider1-img1.png"
+                            />
+                            <img
+                              src="img/slider1-img2.png"
+                              class="item"
+                            />
+                            <img
+                              src="img/slider1-img3.png"
+                              class="item"
+                            />
+                            <img
+                              src="img/slider1-img1.png"
+                              class="item"
+                            />
+                            <img
+                              src="img/slider1-img2.png"
+                              class="item"
+                            />
+                            <img
+                              src="img/slider1-img3.png"
+                              class="item"
+                            />
+                          </div>
+                        </div>
+                        <button id="prev">
+                            <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="29.5137" cy="29.5137" r="29.0137" transform="matrix(-1 0 0 1 59.0275 0)" fill="black" stroke="#FFBF40"/>
+                                <path d="M45.3535 29.1235H13.6754" stroke="#FFBF40" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M29.5144 13.2845L13.6754 29.1235L29.5144 44.9626" stroke="#FFBF40" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>                                
+                        </button>
+                        <button id="next">
+                            <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="29.5137" cy="29.5137" r="29.0137" fill="black" stroke="#FFBF40"/>
+                                <path d="M13.6741 29.1235H45.3522" stroke="#FFBF40" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M29.5131 13.2845L45.3521 29.1235L29.5131 44.9626" stroke="#FFBF40" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>                                
+                        </button>
+                      </div>                      
                 </div>
                 </div>
         </section>
@@ -85,26 +111,39 @@
                     </ol>
                     <h2 class="about__title">награды</h2>
                     <div class="slider2__cont">
-                        <img class="slider2__image" src="img/slider2-img1.jpg" alt="axis">
-                        <img class="slider2__image" src="img/slider2-img2.jpg" alt="mca">
-                        <img class="slider2__image" src="img/slider2-img3.jpg" alt="sertificat">                             
-                    </div>
-                    <div class="slider2__svgs flex">
-                    <button class="about__btn btn__reset">
-                        <svg class="slider2__left" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="29.5137" cy="29.5137" r="29.0137" transform="matrix(-1 0 0 1 59.0275 0)" fill="white" stroke="black"/>
-                        <path d="M45.3534 29.1235H13.6753" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M29.5144 13.2845L13.6754 29.1236L29.5144 44.9626" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
+                    <div id="wrapper1">
+                        <div id="carousel1">
+                          <div id="content1">
+                            <img
+                              class="item1"
+                              src="img/slider2-img1.jpg"
+                            />
+                            <img
+                              src="img/slider2-img2.jpg"
+                              class="item1"
+                            />
+                            <img
+                              src="img/slider2-img3.jpg"
+                              class="item1"
+                            />
+                          </div>
+                        </div>
+                        <button id="prev1">
+                            <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="29.5137" cy="29.5137" r="29.0137" transform="matrix(-1 0 0 1 59.0275 0)" fill="white" stroke="black"/>
+                                <path d="M45.3534 29.1235H13.6753" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M29.5144 13.2845L13.6754 29.1236L29.5144 44.9626" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>                                                                
                         </button>
-                        <button class="about__btn btn__reset">
-                        <svg class="slider2__right" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="29.5412" cy="29.5137" r="29.0137" fill="white" stroke="black"/>
-                            <path d="M13.7015 29.1235H45.3796" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M29.5405 13.2845L45.3796 29.1236L29.5405 44.9626" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
+                        <button id="next1">
+                            <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="29.5412" cy="29.5137" r="29.0137" fill="white" stroke="black"/>
+                                <path d="M13.7015 29.1235H45.3796" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M29.5405 13.2845L45.3796 29.1236L29.5405 44.9626" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>                                                               
                         </button>
-                    </div>   
+                        </div>
+                      </div>                      
                 </div>
             </div>
         </section>
@@ -164,4 +203,5 @@
         </footer>
     </main>
 </body>
+<script src="script.js"></script>
 </html>
