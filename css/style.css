@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'TL';
+    src: url('fonts/0768eur.woff');
+    src: local('0768eur'), local('0768eur'),
+      url('fonts/0768eur.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+
 html {
     box-sizing: border-box;
   }
@@ -123,6 +133,7 @@ circle:active {
 }
 
 .hero__title {
+    font-family: 'TL';
     margin: 0;
     margin-bottom: 17px;
     max-width: 674px;
@@ -217,8 +228,8 @@ circle:active {
     transition: all 0.3s ease;
   }
   
-  .item:active {
-    transform: scale(0.9);
+  .item:hover {
+    transform: scale(1.1);
   }
 
 /* about */
@@ -234,6 +245,7 @@ circle:active {
 }
 
 .about__title {
+    font-family: 'TL';
     margin: 0;
     margin-bottom: 24px;
     font-weight: 400;
@@ -320,8 +332,8 @@ circle:active {
     transition: all 0.3s ease;
   }
   
-  .item1:active {
-    transform: scale(0.9);
+  .item1:hover {
+    transform: scale(1.1);
   }
 
 .about__btn:last-child {
