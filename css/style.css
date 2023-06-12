@@ -1,12 +1,7 @@
 @font-face {
-    font-family: 'TL';
-    src: url('fonts/0768eur.woff');
-    src: local('0768eur'), local('0768eur'),
-      url('fonts/0768eur.ttf') format('ttf');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-  }
+    font-family: 'HandelGothic TL';
+    src: url('fonts/0768eur.ttf') format('woff');
+}
 
 html {
     box-sizing: border-box;
@@ -33,7 +28,7 @@ p {
 
 body {
     min-width: 768px;
-    font-family: 'Helvetica', sans-serif;
+    font-family: Helvetica;
     font-weight: 400;
     background-color: #000;
 }
@@ -133,7 +128,7 @@ circle:active {
 }
 
 .hero__title {
-    font-family: 'TL';
+    font-family: 'HandelGothic TL';
     margin: 0;
     margin-bottom: 17px;
     max-width: 674px;
@@ -245,7 +240,7 @@ circle:active {
 }
 
 .about__title {
-    font-family: 'TL';
+    font-family: 'HandelGothic TL';
     margin: 0;
     margin-bottom: 24px;
     font-weight: 400;
